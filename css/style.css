@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.content-fluid{
+    overflow: hidden;
+}
+
+.row{
+    margin: 0;
+    justify-content: center;
+}
+
+.blocos{
+    padding: 10px;
+    margin: 0px 5px;
+    height: 200px;
+
+    background-color: antiquewhite;
+}

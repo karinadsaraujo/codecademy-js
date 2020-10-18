@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios JavaScript - Codecademy</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content-fluid">
+        <div class="row row-cols-3 align-items-center">
+            <section class="blocos col-3" id="temperaturas">
+                <div class="temp-c">
+                    <h3>Calculo de Temperaturas</h3>
+
+                    <form action="">
+                        <label for="celsius" value="celsius" name="celsius">Celsius:</label>
+                        <input type="text" id="valor-celsius">
+                    </form>
+                </div>
+
+                <div id="resultados">
+                </div>
+            </section>
+
+            <section class="blocos col-3" id="anos-de-cachorro">
+                <div class="ano-dog">
+                    <h3>Idade humana em anos de cachorro</h3>
+                    <form action="">
+                        <input type="text" id="nome-magica" placeholder="Digite seu nome:">
+                        <input type="text" id="idade-humana" placeholder="Digite sua idade:">
+                    </form>
+                </div>
+
+                <div id="rt-anosdogo">
+                </div>
+            </section>
+
+            <section class="blocos col-3" id="bola-magica">
+                <h3>Bola Mágica</h3>
+                <form action="">
+                    <input type="text" id="nome" placeholder="Digite seu nome:">
+                    <input type="text" id="pergunta" placeholder="o que deseja perguntar à bola mágica?">
+                </form>
+
+                <div id="rt-bolamagica">
+                </div>
+            </section>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="js/kelvinweather.js"></script>
+    <script src="js/anosdoggo.js"></script>
+    <script src="js/magic8ball.js"></script>
+</body>
+</html>
